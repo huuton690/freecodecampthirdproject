@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: #eee;
+}
+#header-img{
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+}
+#nav-bar{
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#nav-bar ul{
+   list-style-type: none;
+   display:flex;
+}
+#nav-bar li{
+    margin: 0 40px 0 40px;
+}
+#nav-bar a{
+    color: black;
+    text-decoration: none;
+}
+#header{
+    display:flex;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+#article{
+    padding-top: 80px;
+}
+#title{
+    text-align: center;
+}
+#form{
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+#email-form{
+box-shadow: none;
+width: 200px;
+height: 30px;
+margin-bottom: 10px;
+}
+#submit-button{
+    box-shadow: none;
+    width: 80px;
+    background-color: rgb(185, 185, 250);
+}
+#features{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#features ul{
+list-style-type: none;
+}
+.material-icons{
+    height: 85px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+.list {
+    margin-bottom: 45px;
+}
+#how-it-works {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#pricing{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 10px 0 50px 0;
+}
+.pricing{
+    border: 1px solid;
+    margin: 5px;
+    text-align: center;
+}
+.pricing-title{
+    background-color: burlywood;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-value{
+    font-style:oblique;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.product-detail{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.select-button{
+  margin-bottom: 20px;
+  width: 80px;
+  height: 30px;
+  color:red;
+  font-weight: bold;
+  background-color: rgb(111, 201, 178);
+}
+#web-info{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+#web-info ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    list-style-type: none;
+}
